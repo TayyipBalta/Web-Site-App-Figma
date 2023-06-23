@@ -92,6 +92,7 @@ a {
   top: 0px;
   background-color: #f8f9fb;
   border-bottom: 1px solid #eaebf0;
+  z-index: 1;
 }
 .typPageHeader a {
   color: #272d37;
@@ -130,6 +131,84 @@ a {
   padding: 12px 18px;
   border-radius: 6px;
 }
+/*!---TYP-FEATURES---*/
+.typLeftFeaturesBox
+{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 80px;
+}
+.typLeftBoxHeader
+{
+  margin-left: 40px;
+  margin-bottom: 32px;
+  margin-top: 156px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.typCheckBox
+{
+  background-color: #437ef7;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.typTextBox
+{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-left: 75px;
+}
+.check--one
+{
+  position: relative;
+}
+.check--two
+{
+  position: relative;
+}
+.check--three
+{
+  position: relative;
+}
+#typCheck
+{
+  color: #ffffff;
+  position: absolute;
+  right: 7px;
+}
+.typinput
+{
+  margin-top: 48px;
+  margin-left: 70px;
+}
+.typinputBox
+{
+  position: absolute;
+}
+.typinputBoxButon
+{
+  position: relative;
+  background-color: #437ef7;
+  width: 88px;
+  height: 46px;
+  border-radius: 0px 6px 6px 0px;
+  margin-left: 332px;
+}
+#typSubmitButon
+{
+  position: absolute;
+  color: #ffffff;
+  top: 10px;
+  right: 17px;
+}
+/*!---TYP-FEATURES---*/
+
 /*!---TYP-PAGE-HEADER---*/
 
 /*!---TYP-CONTAİNER---*/
@@ -138,11 +217,11 @@ a {
 /*!---TYP-FOOTER---*/
 .typFooter {
   margin-bottom: 0;
+  
   min-height: 256px;
   background-color: #151b28;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 30px;
 }
 .typFooter a {
@@ -155,20 +234,29 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  position: relative;
+  margin-top: 64px;
 }
 .typFooterLinks {
   display: flex;
   flex-direction: row;
   gap: 48px;
+  position: relative;
 }
 .typFooterSocialLogo {
   display: flex;
   flex-direction: row;
   gap: 24px;
   align-items: center;
+  position: relative;
 }
 .typFooterBorderBox {
-  border-bottom: 1px solid #a5acba;
+  background-color: #a5acba;
+  min-width: 1325px;
+  margin-left: 40px;
+  min-height: 1px;
+  align-self: center;
+  position: static;
 }
 
 .typFooterBottom {
@@ -188,6 +276,7 @@ a {
 .typFooterBottomRight {
   display: flex;
   flex-direction: row;
+  gap: 30px;
 }
 .typFooterBottomRight a {
   color: #a5acba;
