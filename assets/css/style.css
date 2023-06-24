@@ -92,7 +92,7 @@ a {
   top: 0px;
   background-color: #f8f9fb;
   border-bottom: 1px solid #eaebf0;
-  z-index: 1;
+  z-index: 10;
 
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -238,11 +238,14 @@ a {
 {
   display: flex;
   flex-direction: column;
+  background-color: #FFFFFF;
   box-shadow: 10px 10px 2px 0px rgba(16, 24, 40, 0.04);
   width: 243px;
   height: 243px;
   border-radius: 30px;
   gap: 5px;
+  z-index: 2;
+  position: relative;
 }
 .typCardBox h4 , h1
 {
@@ -298,6 +301,27 @@ a {
   margin-top: 50px;
   margin-left: 95px;
 }
+.typBlueDot
+{
+  z-index: 1;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -30px;
+}
+.typBlueClaw
+{
+  z-index: 3;
+  position: absolute;
+  margin-top: 470px;
+  margin-left: 450px;
+}
+.typHeart
+{
+  z-index: 3;
+  position: absolute;
+  margin-top: 225px;
+  margin-left: 220px;
+}
 /*!---TYP-RİGHT-HERO-BOX---*/
 /*!---TYP-HERO-CONTAİNER---*/
 
@@ -329,17 +353,21 @@ a {
 /*!---TYP-FOOTER---*/
 .typFooter {
   margin-bottom: 0;
-  
   min-height: 256px;
   background-color: #151b28;
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #5F6D7E;
+  font-weight: bold;
 }
 .typFooter a {
-  color: #ffffff;
-  font: 500 "inter" sans-serif;
-  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #5F6D7E;
 }
 .typFooterTop {
   display: flex;
