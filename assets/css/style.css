@@ -77,7 +77,7 @@ a {
   font-weight: bold;
 }
 /*!---TYP-PAGE-HEADER---*/
-.typHero {
+.typHeroContainer {
   display: flex;
   flex-direction: column;
   background-color: #f8f9fb;
@@ -93,6 +93,11 @@ a {
   background-color: #f8f9fb;
   border-bottom: 1px solid #eaebf0;
   z-index: 1;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #272d37;
+  font-weight: bold;
 }
 .typPageHeader a {
   color: #272d37;
@@ -131,13 +136,15 @@ a {
   padding: 12px 18px;
   border-radius: 6px;
 }
-/*!---TYP-FEATURES---*/
-.typLeftFeaturesBox
+/*!---TYP-HERO-CONTAİNER---*/
+
+/*!---TYP-LEFT-HERO-BOX---*/
+.typLeftHeroBox
 {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-left: 80px;
+  margin-right: 250px;
 }
 .typLeftBoxHeader
 {
@@ -207,12 +214,117 @@ a {
   top: 10px;
   right: 17px;
 }
-/*!---TYP-FEATURES---*/
+/*!---TYP-LEFT-HERO-BOX---*/
+
+/*!---TYP-HERO-CONTENT---*/
+.typHeroContent
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 200px;
+}
+/*!---TYP-HERO-CONTENT---*/
+
+/*!---TYP-RİGHT-HERO-BOX---*/
+.typRightHeroBox
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 50px;
+}
+.typCardBox
+{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 2px 0px rgba(16, 24, 40, 0.04);
+  width: 243px;
+  height: 243px;
+  border-radius: 30px;
+  gap: 5px;
+}
+.typCardBox h4 , h1
+{
+  text-align: center;
+}
+.typCardBox h4
+{
+  color: #5F6D7E;
+}
+.typCardiconBox
+{
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.typBankiconBox
+{
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  background-color: #F04438;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 95px;
+}
+.typWalleticonBox
+{
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  background-color: #5DC264;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 95px;
+}
+.typCrediCardiconBox
+{
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  background-color: #437ef7;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 95px;
+}
+.typPieiconBox
+{
+  width: 52px;
+  height: 52px;
+  border-radius: 50px;
+  background-color: #FFAE43;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 95px;
+}
+/*!---TYP-RİGHT-HERO-BOX---*/
+/*!---TYP-HERO-CONTAİNER---*/
+
+/*!---TYP-FEATURES-CONTAİNER---*/
+/*!---TYP-FEATURES-CONTAİNER---*/
+
+
+/*!---TYP-RİGHT-TO-LEFT-CONTAİNER---*/
+/*!---TYP-RİGHT-TO-LEFT-CONTAİNER---*/
+
+/*!---TYP-LEFT-TO-RİGHT-CONTAİNER---*/
+/*!---TYP-LEFT-TO-RİGHT-CONTAİNER---*/
+
+/*!---TYP-TESTİMONİAL-CONTAİNER---*/
+/*!---TYP-TESTİMONİAL-CONTAİNER---*/
+
+/*!---TYP-BLOG-POST-CONTAİNER---*/
+/*!---TYP-BLOG-POST-CONTAİNER---*/
+
+/*!---TYP-LOGO-SECTİON-CONTAİNER---*/
+/*!---TYP-LOGO-SECTİON-CONTAİNER---*/
+
+/*!---TYP-CALL-TO-ACTİON-CONTAİNER---*/
+/*!---TYP-CALL-TO-ACTİON-CONTAİNER---*/
+
 
 /*!---TYP-PAGE-HEADER---*/
-
-/*!---TYP-CONTAİNER---*/
-/*!---TYP-CONTAİNER---*/
 
 /*!---TYP-FOOTER---*/
 .typFooter {
