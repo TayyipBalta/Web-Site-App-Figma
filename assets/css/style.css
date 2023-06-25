@@ -74,13 +74,13 @@ a {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   color: #272d37;
-  font-weight: bold;
 }
 /*!---TYP-PAGE-HEADER---*/
 .typHeroContainer {
   display: flex;
   flex-direction: column;
   background-color: #f8f9fb;
+  min-width: 1440px;
   min-height: 774px;
 }
 .typPageHeader {
@@ -97,7 +97,6 @@ a {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   color: #272d37;
-  font-weight: bold;
 }
 .typPageHeader a {
   color: #272d37;
@@ -113,7 +112,7 @@ a {
   flex-direction: row;
   align-items: center;
   gap: 64px;
-  padding-left: 130px;
+  margin-left: 130px;
 }
 .typLinksHead {
   display: flex;
@@ -125,7 +124,8 @@ a {
   flex-direction: row;
   align-items: center;
   gap: 24px;
-  padding-right: 160px;
+  margin-right: 160px;
+  margin-left: 160px;
 }
 .typSign .typSignUp {
   color: #437ef7;
@@ -144,13 +144,12 @@ a {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-right: 250px;
+  position: relative;
 }
 .typLeftBoxHeader
 {
-  margin-left: 40px;
   margin-bottom: 32px;
-  margin-top: 156px;
+  margin-top: 75px;
   font-size: 30px;
   font-weight: 700;
   line-height: 70px;
@@ -169,7 +168,6 @@ a {
   display: flex;
   flex-direction: row;
   gap: 12px;
-  margin-left: 75px;
 }
 .check--one
 {
@@ -192,7 +190,6 @@ a {
 .typinput
 {
   margin-top: 48px;
-  margin-left: 70px;
 }
 .typinputBox
 {
@@ -222,7 +219,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-right: 200px;
+  position: relative;
 }
 /*!---TYP-HERO-CONTENT---*/
 
@@ -352,8 +349,10 @@ a {
 
 /*!---TYP-FOOTER---*/
 .typFooter {
+  position: relative;
   margin-bottom: 0;
   min-height: 256px;
+  min-width: 1440px;
   background-color: #151b28;
   display: flex;
   flex-direction: column;
@@ -362,7 +361,6 @@ a {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   color: #5F6D7E;
-  font-weight: bold;
 }
 .typFooter a {
   font-family: "Inter", sans-serif;
