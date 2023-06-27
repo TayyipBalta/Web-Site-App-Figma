@@ -470,7 +470,33 @@ typFeaturesTextBox
 /*!---BUSE---*/
 
 /*!---BUSRA---*/
-/*BUSRA BURAYI SANA AYIRDIM*/
+/*About page */
+.aboutHero{
+  background-color: #F8F9FB;
+  margin-top: 30px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutHeroContainer{
+  width: 700px;
+  text-align: center;
+  font-size: 18px;
+}
+.aboutHeroContainerh6,.aboutHeroContainerh1,.aboutHeroContainerp{
+  margin-bottom: 15px;
+}
+.aboutHeroContainerh6 h6{
+  color: blue;
+}
+.aboutHeroContainerh1 h1{
+  font-weight: bold;
+  Line-height: 45px;
+}
+.aboutHeroContainerp p{
+  color:#5F6D7E
+}
 /*!---BUSRA---*/
 
 /*!---AHMET---*/
