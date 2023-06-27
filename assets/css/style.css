@@ -68,6 +68,7 @@ li {
 a {
   text-decoration: none;
 }
+
 /*!---CSS-RESET---*/
 /*!---LANDİNG-PAGE-TAYYİP---*/
 .landingPageTayyip {
@@ -81,7 +82,7 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #f8f9fb;
-  min-width: 1440px;
+  min-width: 1000px;
   min-height: 774px;
 }
 .typPageHeader {
@@ -242,8 +243,8 @@ a {
   flex-direction: column;
   background-color: #FFFFFF;
   box-shadow: 10px 10px 2px 0px rgba(16, 24, 40, 0.04);
-  width: 243px;
-  height: 243px;
+  min-width: 243px;
+  min-height: 243px;
   border-radius: 30px;
   gap: 5px;
   z-index: 2;
@@ -345,8 +346,8 @@ a {
 .typFeaturesLogoBox
 {
   background-color: #F5FAFF;
-  width: 48px;
-  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
   border-radius: 50px;
   position: relative;
 }
@@ -358,17 +359,154 @@ a {
 }
 typFeaturesTextBox
 {
-
+ display: flex;
+ flex-direction: column;
+ min-width: 280px;
+ min-height: 48px;
 }
 /*!---TYP-FEATURES-CONTAİNER---*/
 /*?-------------------------------------------?*/
-/*!---TYP-RİGHT-TO-LEFT-CONTAİNER---*/
-
-/*!---TYP-RİGHT-TO-LEFT-CONTAİNER---*/
+/*!---TYP-LEFT-TO-RİGHT-CONTAİNER---*/
+.typLeftToRightContainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 64px;
+  min-width: auto;
+  min-height: 856px;
+}
+.typLeftToRightContainer h4 , p
+{
+  color: #5F6D7E;
+}
+.typRightBox img
+{
+  border-radius: 30px;
+}
+.typCheckBoxNoBack
+{
+  display: flex;
+  flex-direction: column;
+}
+.typCheckNoBack
+{
+  color:#437ef7;
+}
+.typTopText
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.typTopToText
+{
+  margin-top: 16px;
+}
+.typLeftHeadAndText
+{
+  display: flex;
+  flex-direction: column;
+  width: 532px;
+}
+.typLeftRightBox
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 124px;
+}
+.typLeftText
+{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.typLeftHeadAndText
+{
+  gap: 16px;
+}
+.typCheckBoxContainer
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.typCheckNoBack
+{
+  align-items: center;
+}
+.typCheckText
+{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.typStartButton
+{
+  background-color: #437ef7;
+  width: 133px;
+  height: 46px;
+  border-radius: 6px;
+  position: relative;
+}
+.typStartButton a
+{
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  color: #FFFFFF;
+}
+/*!---TYP-LEFT-TO-RİGHT-CONTAİNER---*/
 /*?-------------------------------------------?*/
-/*!---TYP-LEFT-TO-RİGHT-CONTAİNER---*/
-
-/*!---TYP-LEFT-TO-RİGHT-CONTAİNER---*/
+/*!---TYP-RİGHT-TO-LEFT-CONTAİNER---*/
+.typRightToLeftContainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 64px;
+  min-width: auto;
+  min-height: 688px;
+  background-color: #f8f9fb;
+}
+.typRightToLeftContainer h4 , p
+{
+  color: #5F6D7E;
+}
+.typRightLeftBox
+{
+  display: flex;
+  flex-direction: row;
+}
+.typLeftBox img
+{
+  border-radius: 30px;
+}
+.typRightHeadAndText
+{
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  gap: 16px;
+}
+.typRightLeftBox
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 124px;
+}
+.typRightText
+{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+/*!---TYP-RİGHT-TO-LEFT-CONTAİNER---*/
 /*?-------------------------------------------?*/
 /*!---TYP-TESTİMONİAL-CONTAİNER---*/
 
@@ -394,7 +532,7 @@ typFeaturesTextBox
   position: relative;
   margin-bottom: 0;
   min-height: 256px;
-  min-width: 1440px;
+  min-width: auto;
   background-color: #151b28;
   display: flex;
   flex-direction: column;
@@ -464,6 +602,9 @@ typFeaturesTextBox
 /*!---TYP-FOOTER---*/
 
 /*!---LANDİNG-PAGE-TAYYİP---*/
+
+/*!---LOGİN-TAYYİP---!*/
+/*!---LOGİN-TAYYİP---!*/
 
 /*!---BUSE---*/
 /*BUSE BURAYI SANA AYIRDIM*/
