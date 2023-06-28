@@ -206,6 +206,8 @@ a {
 
 /*!---AHMET---*/
 
+/*!---HelpSupport---*/
+
 .support-help h1,
 h2,
 h3,
@@ -387,5 +389,441 @@ h6 {
   text-align: center;
   gap: 16px;
 }
+
+/*!---HelpSupport---*/
+
+/*!---Careers---*/
+
+.careers h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Inter";
+}
+.careers p {
+  color: #5f6d7e;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.careers h1 {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.52px;
+  color: #fff;
+}
+.careers h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0.32px;
+}
+.careers h3 {
+  color: #272d37;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.64px;
+}
+.careers h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+.careers h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.careers-heading {
+  background-image: linear-gradient(
+      rgba(15, 23, 36, 0.85),
+      rgba(15, 23, 36, 0.85)
+    ),
+    url("../img/CareersImg/heroBackground.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.careers-navbar {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+  border-bottom: 1px solid rgba(46, 53, 69, 1);
+  margin-bottom: 80px;
+}
+
+.careers-navbar-logo {
+  display: flex;
+}
+.careers-navbar-logo img {
+  margin-right: 32px;
+}
+.careers-nav-ul {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+}
+.careers-nav-ul a {
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 22px;
+  color: #fff;
+}
+.careers-sign {
+  display: flex;
+  gap: 24px;
+}
+
+.careers-login {
+  padding: 12px 18px;
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #437ef7;
+}
+.careers-signup {
+  color: #437ef7;
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 22px;
+  padding: 12px 18px;
+}
+
+.careers-hero {
+  width: 640px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.careers-hero p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Inter";
+  line-height: 26px;
+  letter-spacing: 0.1px;
+  color: #fff;
+}
+
+.careers-hero a {
+  padding: 12px 18px;
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #437ef7;
+  margin-bottom: 92px;
+}
+
+.careers-contents {
+  width: 1280px;
+  margin: 0px auto;
+}
+
+.careers-content {
+  display: flex;
+  gap: 140px;
+  justify-content: space-between;
+  padding: 64px 0;
+}
+.careers-paragph {
+  width: 516px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+.careers-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.careers-login2 {
+  padding: 12px 18px;
+  display: flex;
+  gap: 6px;
+  color: #fff;
+  background-color: #437ef7;
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 6px;
+}
+.careers-start {
+  width: 133px;
+}
+#blue {
+  color: #437ef7;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+.careers-content2 {
+  display: flex;
+}
+.careers-content-image {
+  height: 546px;
+  background-image: linear-gradient(
+      rgba(15, 23, 36, 0.5),
+      rgba(15, 23, 36, 0.5)
+    ),
+    url("../img/CareersImg/Image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.careers-content-container {
+  background-color: #f8f9fb;
+}
+
+.careers-contents2 {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.careers-input-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 48px;
+  gap: 12px;
+}
+
+.careers-input-head p:first-child {
+  margin-top: 64px;
+}
+
+.careers-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.careers-placeholder {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 384px;
+}
+.careers-placeholder label {
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.careers-select {
+  border: 1px solid #dae0e6;
+  border-radius: 5px;
+  padding: 12px 16px;
+  background-image: url(../img/CareersImg/down.svg);
+  background-position: bottom 50% right 5%;
+  background-repeat: no-repeat;
+  appearance: none;
+  font-size: 15px;
+  font-family: "Inter";
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+.careers-table-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.careers-btn {
+  border: 1px solid #f5faff;
+  padding: 4px 12px;
+  border-radius: 5px;
+  background: #f5faff;
+}
+.careers-btn a {
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #437ef7;
+}
+.careers-table {
+  border: 1px solid #eaebf0;
+  border-radius: 5px;
+  border-collapse: collapse;
+  text-align: left;
+  margin-bottom: 52px;
+  background-color: #fff;
+}
+.careers-table-tr1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding: 20px 32px;
+  border-bottom: 1px solid #eaebf0;
+}
+.careers-table-tr {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  padding: 16px 32px;
+  border-bottom: 1px solid #eaebf0;
+}
+.careers-table-middle {
+  padding-left: 32px;
+}
+.careers-table-end {
+  padding-left: 32px;
+}
+.careers-end {
+  border: none;
+}
+
+.careers-review {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 128px;
+}
+.careers-review-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.careers-ceo {
+  display: flex;
+  border-radius: 5px 10px 10px 5px;
+  border: 1px solid #eaebf0;
+  background-color: #fff;
+  gap: 64px;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+  margin-bottom: 64px;
+}
+.careers-test {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 32px 56px 0px;
+}
+#careers-arrow {
+  width: 48px;
+  height: 48px;
+}
+.careers-ceo-parag {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+#careers-parag {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 48px;
+  border-left: 1px solid #eaebf0;
+}
+#careers-parag1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+#careers-parag1 h2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.22px;
+}
+.careers-ceo-parag a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: "Inter";
+  color: #437ef7;
+}
+.careers-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: #151b28;
+  padding: 64px 0;
+}
+
+.careers-footer-up {
+  width: 1280px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.careers-link {
+  display: flex;
+  gap: 48px;
+}
+.careers-link a {
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 24px;
+  color: #a5acba;
+}
+.careers-social {
+  display: flex;
+  gap: 24px;
+}
+.careers-footer-down {
+  width: 1280px;
+  margin: 0 auto;
+  border-top: 1px solid #2e3545;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 32px 0 0 0;
+}
+#careers-ul {
+  padding: 0;
+}
+#careers-right {
+  font-size: 16px;
+  font-family: "Inter";
+  line-height: 24px;
+  color: #a5acba;
+}
+.careers-privacy {
+  display: flex;
+  gap: 48px;
+}
+.careers-privacy a {
+  color: #a5acba;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 24px;
+}
+/*!---Careers---*/
 
 /*!---AHMET---*/
