@@ -598,15 +598,156 @@ typFeaturesTextBox
 /*!---TYP-TESTİMONİAL-CONTAİNER---*/
 /*?-------------------------------------------?*/
 /*!---TYP-BLOG-POST-CONTAİNER---*/
+.typBlogPostContainer
+{
+  min-width: auto;
+  min-height: 714px;
+  padding: 64px;
+}
+.typBlogTopToText h4
+{
+  color: #5F6D7E;
+}
+.typBlogPostContent
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 64px;
+}
+.typBlogPostContentRightBox
+{
+  display: flex;
+  flex-direction: column;
+}
+.typBlogPostLeft
+{
+  display: flex;
+  flex-direction: column;
+  width: 588px;
+  height: 418px;
+  gap: 16px;
+}
+.typBlogPostRight
+{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.typRightPostBox
+{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.typRightToLeftPostBox
+{
+  display: flex;
+  flex-direction: column;
+}
 
 /*!---TYP-BLOG-POST-CONTAİNER---*/
 /*?-------------------------------------------?*/
 /*!---TYP-LOGO-SECTİON-CONTAİNER---*/
-
+.typLogoSectionContainer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: auto;
+  min-height: 328px;
+}
+.typLogoSectionTopText h4
+{
+  color: #5F6D7E;
+}
+.typLogoSectionTopText
+{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.typLogoSectionTopToText
+{
+  text-align: center;
+  width: 800px;
+}
+.typLogoSection
+{
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  padding: 64px;
+}
 /*!---TYP-LOGO-SECTİON-CONTAİNER---*/
 /*?-------------------------------------------?*/
 /*!---TYP-CALL-TO-ACTİON-CONTAİNER---*/
-
+.typCallToActionContainer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: auto;
+  min-height: 374px;
+}
+.typCallToph4 h4
+{
+  color: #3971E7;
+}
+.typCallinput
+{
+  margin-top: 48px;
+}
+.typCallinputBox
+{
+  position: absolute;
+}
+.typCallinputBoxButon
+{
+  position: relative;
+    background-color: #437ef7;
+    width: 88px;
+    height: 46px;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: 420px;
+}
+#typCallSubmitButon
+{
+  position: absolute;
+  color: #ffffff;
+  top: 10px;
+  right: 17px;
+}
+.typCallCheckText
+{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 32px 64px;
+}
+.typCallTextBox
+{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.typCallCheckBox
+{
+  background-color: #437ef7;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  position: relative;
+}
+#typCallCheck
+{
+  color: #ffffff;
+  position: absolute;
+  right: 7px;
+}
 /*!---TYP-CALL-TO-ACTİON-CONTAİNER---*/
 /*?-------------------------------------------?*/
 
