@@ -431,7 +431,6 @@ a {
 /*About page */
 .aboutHero{
   background-color: #F8F9FB;
-  margin-top: 30px;
   height: 450px;
   display: flex;
   justify-content: center;
@@ -454,6 +453,21 @@ a {
 }
 .aboutHeroContainerp p{
   color:#5F6D7E
+}
+/*hero bitiş*/
+.aboutFeatures{
+  display: flex;
+  background: #ffffff;
+  justify-content: center;
+  height: 400px;
+
+}
+.blockHeader{
+  height: 80px;
+  color: #5F6D7E;
+  text-align: center;
+  line-height: 40px;
+  gap: 12px;
 }
 /*!---BUSRA---*/
 
