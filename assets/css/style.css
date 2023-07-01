@@ -263,7 +263,29 @@ h6 {
   margin: 0 auto;
   margin-top: 32px;
 }
-
+.support-help nav {
+  border-bottom: 1px solid #eaebf0;
+  background-color: #f8f9fb;
+}
+.support-navbar {
+  width: 1280px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.support-nav-ul {
+  display: flex;
+  gap: 32px;
+}
+.support-nav-ul a {
+  color: #272d37;
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 22px;
+}
 .support-profile {
   display: flex;
   flex-direction: column;
