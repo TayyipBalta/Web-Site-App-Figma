@@ -487,6 +487,18 @@ a {
 }
 /* features bitiş*/
 
+/* leftRoRight başlangıç*/
+.aboutLeftToRight{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.aboutLeftToRightContent{
+  width: 500px;
+}
+.LeftRightPhoto{
+  width: 500px;
+  height: 500px;
+}
 /*!---BUSRA---*/
 
 /*!---AHMET---*/
