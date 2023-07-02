@@ -665,6 +665,15 @@ a {
   border-radius: 6px;
   color: white;
 }
+/*callto action bitti*/
+.logoSection{
+  background: #2B63D9;
+}
+.logoSectionContent{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
 /*!---BUSRA---*/
 
 /*!---AHMET---*/
