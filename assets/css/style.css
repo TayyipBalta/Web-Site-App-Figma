@@ -637,6 +637,34 @@ a {
   gap: 10px;
 }
 /*WebLabel bitti*/
+
+.aboutCallToAction{
+  margin-top: 50px;
+  padding-top: 50px;
+  background: #2B63D9;
+  display: flex;  
+  justify-content: center;
+  height: 350px;
+  gap: 20px;
+}
+.aboutCallToActionContent{
+  width: 700px;
+  text-align: center;
+  color: white;
+}
+.beyazrenk{
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  color: blue;
+  margin-right: 10px;
+}
+.mavirenk{
+  background: blue;
+  padding: 15px;
+  border-radius: 6px;
+  color: white;
+}
 /*!---BUSRA---*/
 
 /*!---AHMET---*/
