@@ -1571,7 +1571,6 @@ h6 {
 /*About page */
 .aboutHero{
   background-color: #F8F9FB;
-  margin-top: 30px;
   height: 450px;
   display: flex;
   justify-content: center;
@@ -1594,6 +1593,226 @@ h6 {
 }
 .aboutHeroContainerp p{
   color:#5F6D7E
+}
+/*hero bitiş*/
+.aboutFeatures{
+  display: flex;
+  background: #ffffff;
+  justify-content: center;
+  height: 400px;
+  flex-direction: column;
+
+}
+.blockHeader{
+  height: 80px;
+  color: #5F6D7E;
+  text-align: center;
+  line-height: 40px;
+  gap: 12px;
+}
+
+.yuvarlak img{
+  background-color: rgba(42, 42, 243, 0.986);
+  border-radius: 50%;
+}
+.aboutContent{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.featuresbase{
+  width: 350px;
+  color: #5F6D7E;
+}
+/* features bitiş*/
+
+/* leftRoRight başlangıç*/
+.aboutLeftToRight{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background: #FFFFFF;
+
+}
+.aboutLeftToRightContent{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  color: #5F6D7E;
+  line-height: 35px;
+
+}
+.LeftRightPhoto{
+  width: 500px;
+  height: 400px;
+}
+.tik{
+  list-style-type:none;
+  background: url(../img/BusraResim/check.svg) left center no-repeat;
+  padding:5px 0px 5px 25px;
+}
+/*lefttoright bitiş*/
+
+.aboutTeamSection{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.aboutBlockHeader{
+  width: 750px;
+  text-align:center;
+  color: #5F6D7E;
+}
+.aboutTeamSectionContent{
+  padding-top: 40px;
+  height: 400px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  top: 20px;
+}
+.contentTeamMemberBase{
+  width: 300px;
+  height: 350px;
+  color: #5F6D7E;
+}
+.aboutsocialsmedia{
+  display: flex;
+  gap: 5px;
+}
+.icon{
+  border-radius: 60%;
+  background:black ;
+}
+.iconi{
+  border-radius: 30%;
+  background: black;
+}
+/*team section bitti*/
+
+.aboutWebLabel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.AboutBlockyazi{
+  align-self: center;
+  width: 700px;
+  height: 100px;
+  line-height: 25px;
+  text-align: center;
+  color: #5F6D7E;
+}
+.aboutWebLabelTable{
+  align-self: center;
+  width: 900px;
+  color: #5F6D7E;
+}
+.tabelheadersection{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsection2{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsectionright2{
+  display: flex;
+  gap: 10px;
+}
+.little{
+  height: 20px;
+}
+.tabelsection3{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsectionright3{
+  display: flex;
+  gap: 10px;
+}
+.tabelsection4{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsectionright4{
+  display: flex;
+  gap: 10px;
+}
+.tabelsection5{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsectionright5{
+  display: flex;
+  gap: 10px;
+}
+.tabelsection6{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsectionright6{
+  display: flex;
+  gap: 10px;
+}
+/*WebLabel bitti*/
+
+.aboutCallToAction{
+  margin-top: 50px;
+  padding-top: 50px;
+  background: #2B63D9;
+  display: flex;  
+  justify-content: center;
+  height: 350px;
+  gap: 20px;
+}
+.aboutCallToActionContent{
+  width: 700px;
+  text-align: center;
+  color: white;
+}
+.beyazrenk{
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  color: blue;
+  margin-right: 10px;
+}
+.mavirenk{
+  background: blue;
+  padding: 15px;
+  border-radius: 6px;
+  color: white;
+}
+/*callto action bitti*/
+.logoSection{
+  background: #2B63D9;
+}
+.logoSectionContent{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
 }
 /*!---BUSRA---*/
 
