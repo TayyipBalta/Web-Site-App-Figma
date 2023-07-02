@@ -1111,6 +1111,7 @@ h6 {
 }
 
 
+/*---Pricing baslangic---*/
 .pricing-container h1,
 h2,
 h3,
@@ -1120,6 +1121,7 @@ h6 {
   font-family: "Inter";
   color: #272d37;
 }
+
 
 .pricing-container p{
   color: #437EF7;
@@ -1154,7 +1156,7 @@ h6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap:15px;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   border: 1px solid (#EAEBF0);
 
 }
@@ -1164,6 +1166,13 @@ h6 {
   padding:12px;
   color: #ffffff;
 
+}
+.solid{
+  border-top: 1px solid #EAEAEA;
+}
+.buynow{
+  display: flex;
+  justify-content: center;
 }
 .pricing-post a{
   color: #272D37;
@@ -1180,6 +1189,149 @@ h6 {
   color: #5F6D7E;
   text-align: center;
 }
+
+.pricing-ikon{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:15px;
+  margin-bottom: 40px;
+  border: 1px solid (#EAEBF0);
+
+}
+.pricing-ikon-yazi{
+  box-shadow:0px 1px 2px 0px rgba(16, 24, 40, 0.04);;
+  border-radius: 6px;
+  padding:12px;
+  color: #ffffff;
+
+}
+.pricing-ikon-yazi p{
+  color:#5F6D7E;
+}
+.pricing-background{
+  display: flex;
+  margin-bottom: 0;
+  padding: 64px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  background-color: #151B28;
+}
+.pricing-back-yazi h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #EAEBF0;
+
+}
+.pricing-back-yazi p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #A5ACBA;
+}
+.pricing-cards h4{
+  color: #F9F9F9;
+}
+.pricing-orta{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 221px;
+}
+
+.solid{
+  border-top: 1px solid #EAEAEA;
+}
+.pricing-back-tablo{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-self: stretch;
+  color: #A5ACBA;
+}
+
+.pricing-table-cell{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 221px;
+  color: #EAEBF0;
+}
+.pricing-table-cell p{
+  color: #A5ACBA;
+  
+}
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+
+}
+.sag-taraf{
+  float: right;
+  padding: 0px 10px 10px 0px;
+}
+.buton{
+  display: flex;
+  justify-content: center;
+}
+.pricing-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.pricing-header p{
+  color: #5F6D7E;
+}
+.pricing-akkord{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:15px;
+  margin-bottom: 40px;
+  border: 1px solid (#EAEBF0);
+  box-shadow:0px 1px 2px 0px rgba(16, 24, 40, 0.04);;
+  border-radius: 6px;
+  padding:12px;
+  color: #ffffff;
+}
+.pricing-akkord{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:15px;
+  margin-bottom: 40px;
+  border: 1px solid (#EAEBF0);
+}
+.pricing-akkordd{
+  box-shadow:0px 1px 2px 0px rgba(16, 24, 40, 0.04);;
+  border-radius: 6px;
+  padding:12px;
+  color: #ffffff;
+
+}
+.action{
+  display: flex;
+  height: 290px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2B63D9;
+}
+.action h2{
+  color: #F7F7F8;
+  text-align: center;
+
+}
+.sign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*---Pricing bitis---*/
 
 /*!---BUSE---*/
 
