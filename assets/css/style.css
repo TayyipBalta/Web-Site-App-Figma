@@ -555,19 +555,86 @@ a {
 
 .aboutWebLabel{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background: #437ef7;
-
 }
 .AboutBlockyazi{
-  padding-top: 30px;
+  align-self: center;
   width: 700px;
   height: 100px;
   line-height: 25px;
   text-align: center;
   color: #5F6D7E;
-  background: pink;
-  margin-bottom: 50px;
+}
+.aboutWebLabelTable{
+  align-self: center;
+  width: 900px;
+  color: #5F6D7E;
+}
+.tabelheadersection{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsection2{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsectionright2{
+  display: flex;
+  gap: 10px;
+}
+.little{
+  height: 20px;
+}
+.tabelsection3{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsectionright3{
+  display: flex;
+  gap: 10px;
+}
+.tabelsection4{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsectionright4{
+  display: flex;
+  gap: 10px;
+}
+.tabelsection5{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsectionright5{
+  display: flex;
+  gap: 10px;
+}
+.tabelsection6{
+  display: flex;
+  width: 900px;
+  height: 50px;
+  border: 1px solid #EAEBF0;
+  justify-content: space-between;
+}
+.tabelsectionright6{
+  display: flex;
+  gap: 10px;
 }
 /*WebLabel bitti*/
 /*!---BUSRA---*/
