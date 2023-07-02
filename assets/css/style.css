@@ -490,15 +490,31 @@ a {
 /* leftRoRight başlangıç*/
 .aboutLeftToRight{
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 40px;
+
 }
 .aboutLeftToRightContent{
+  display: flex;
   width: 500px;
+  height: 500px;
+  align-items: center;
+  color: #5F6D7E;
+  line-height: 35px;
+
 }
 .LeftRightPhoto{
   width: 500px;
-  height: 500px;
+  height: 400px;
 }
+.tik{
+  list-style-type:none;
+  background: url(../img/BusraResim/check.svg) left center no-repeat;
+  padding:5px 0px 5px 25px;
+}
+/*lefttoright bitiş*/
+
+
 /*!---BUSRA---*/
 
 /*!---AHMET---*/
