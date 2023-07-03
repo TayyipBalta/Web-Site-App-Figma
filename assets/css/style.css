@@ -1875,7 +1875,29 @@ h6 {
   margin: 0 auto;
   margin-top: 32px;
 }
-
+.support-help nav {
+  border-bottom: 1px solid #eaebf0;
+  background-color: #f8f9fb;
+}
+.support-navbar {
+  width: 1280px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.support-nav-ul {
+  display: flex;
+  gap: 32px;
+}
+.support-nav-ul a {
+  color: #272d37;
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 22px;
+}
 .support-profile {
   display: flex;
   flex-direction: column;
@@ -2544,4 +2566,70 @@ p {
 }
 /*!---Portfolio---*/
 
+.error h1 {
+  color: #272d37;
+  font-size: 36px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0.72px;
+}
+.error h2 {
+  color: #437ef7;
+  font-size: 28px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.56px;
+}
+.error p {
+  color: #5f6d7e;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+.error a {
+  color: #272d37;
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 20px;
+}
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+.error-img {
+  width: 660px;
+  margin: 64px auto;
+  padding: 0 121px 0 121px;
+  margin-bottom: 0;
+}
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.error-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error-container a {
+  padding: 12px 18px;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #437ef7;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+}
+.error-links {
+  display: flex;
+  gap: 32px;
+}
 /*!---AHMET---*/
