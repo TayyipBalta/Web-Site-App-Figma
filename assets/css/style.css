@@ -717,6 +717,35 @@ height: 650px;
   margin-top: 80px;
   align-items: flex-end;
 }
+/*contactUsForm başlangıç*/
+.contactUsForm{
+  align-self: center;
+  background: rgb(235, 232, 232);
+  height: 550px;
+  width: 1200px;
+  padding: 80px;
+
+}
+.contactUsİnputFormContainer{
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+  width: 1000px;
+  height: 400px;
+}
+.contactUsleft{
+  width: 450px;
+  height: 200px;
+  padding-top: 30px;
+}
+.contactUsright{
+  width: 450px;
+  height: 200px;
+  padding-top: 30px;
+}
+.fname{
+  width: 200px;
+}
 /*!---BUSRA---*/
 
 
