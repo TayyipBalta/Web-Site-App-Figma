@@ -675,15 +675,18 @@ a {
   padding-bottom: 40px;
 }
 /*ABOUT SAYFASI BİTTİ*/
+
 /*contact us sayfası başlangıç*/
 
 .contactUsFeatures{
 height: 650px;
+align-self: center;
+width: 1360px;
+
 }
 .contactUsFeaturesRow{
   display: flex;
-  margin: 80px;
-  width: 1300px;
+  margin: 70px;
   height: 500px;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -696,15 +699,13 @@ height: 650px;
 
 }
 .contactUsFeaturesBase{
-  padding: 10px;
+  padding: 5px;
   height: 220px;
-  width: 400px;
- 
+  width: 370px;
 }
 .contactUsFeaturesBaseVerticalContainer{
   display: flex;
   justify-content: space-between;
-  
 }
 .ozellik{
   padding: 10px;
