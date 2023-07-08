@@ -516,10 +516,14 @@ a {
 /*lefttoright bitiş*/
 
 .aboutTeamSection{
+  background: yellowgreen;
   margin-top: 70px;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 .aboutBlockHeader{
   width: 750px;
@@ -668,6 +672,10 @@ a {
 /*callto action bitti*/
 .logoSection{
   background: #2B63D9;
+}
+.logoSectionContent img{
+  width: 70px;
+  height: 20px;
 }
 .logoSectionContent{
   display: flex;
