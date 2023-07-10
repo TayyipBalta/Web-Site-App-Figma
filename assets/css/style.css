@@ -435,10 +435,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  max-width: 100%;
 }
 .aboutHeroContainer{
-  width: 700px;
   text-align: center;
   font-size: 18px;
 }
@@ -457,6 +456,7 @@ a {
 }
 /*hero bitiş*/
 .aboutFeatures{
+  max-width: 100%;
   display: flex;
   background: #ffffff;
   justify-content: center;
@@ -498,7 +498,7 @@ a {
   justify-content: center;
   gap: 40px;
   background: #FFFFFF;
-
+  max-width: 100%;
 }
 .aboutLeftToRightContent{
   display: flex;
@@ -528,6 +528,7 @@ a {
   align-items: center;
   padding: 20px;
   margin-bottom: 60px;
+  max-width: 100%;
 }
 .aboutBlockHeader{
   width: 750px;
@@ -562,6 +563,7 @@ a {
 /*team section bitti*/
 
 .aboutWebLabel{
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -655,6 +657,7 @@ a {
 /*WebLabel bitti*/
 
 .aboutCallToAction{
+  max-width: 100%;
   margin-top: 50px;
   padding-top: 50px;
   background: #2B63D9;
@@ -694,7 +697,8 @@ a {
   justify-content: space-evenly;
   padding-bottom: 40px;
 }
-/*ABOUT SAYFASI BİTTİ*/
+
+/*!ABOUT SAYFASI BİTTİ*/
 
 /*contact us sayfası başlangıç*/
 
